@@ -1,0 +1,9 @@
+log_format tm '"ggtm" "$time_local" '
+		'"$request" "$status" "$bytes_sent" "$request_time" "$upstream_response_time"';
+	log_format ua '"ggtm" "$time_local" '
+		'"$request" "$status" "$bytes_sent" "$request_time" "$upstream_response_time" "$http_user_agent"';
+
+	log_format prx '"jsprx" "$time_local" '
+		'"$request" "$status" "$bytes_sent" "$request_time" "$upstream_response_time" '
+		'"$upstream_addr" "$http_referer" "$http_user_agent" '
+		'"$devid" "$umac" "$uip" "$origin" "$radius" "$reqid" "$remote_addr" "$http_x_requested_with" "$ecode"';

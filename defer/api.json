@@ -1,0 +1,31 @@
+{
+	"data": [{
+		"upstream_url": "http:\/\/www.xiaoyun.com",
+		"created_at": 1470379599000,
+		"request_path": "\/test",
+		"id": "fc8b81ee-2761-47ce-a56b-5542d2e35823",
+		"name": "test",
+		"preserve_host": false,
+		"strip_request_path": false,
+		"request_host": "www.xiaoyun.com"
+	}, {
+		"upstream_url": "https:\/\/userapi.app.xiaoyun.com",
+		"created_at": 1470380200000,
+		"request_path": "\/UserApi",
+		"id": "c7cf434c-e44a-44c3-8716-c709df052eb8",
+		"name": "UserApi",
+		"preserve_host": false,
+		"strip_request_path": false,
+		"request_host": "userapi.app.xiaoyun.com"
+	}, {
+		"upstream_url": "http:\/\/test-userapi.app.xiaoyun.com",
+		"created_at": 1470648424000,
+		"request_path": "\/UserApi\/v1\/user\/token",
+		"id": "3531cf57-874c-4b7f-917c-8c35a51fdc3a",
+		"name": "UserApiToken",
+		"preserve_host": false,
+		"strip_request_path": false,
+		"request_host": "test-userapi.app.xiaoyun.com"
+	}],
+	"total": 3
+}
